@@ -13,6 +13,11 @@ export default new Router({
       component: () => import('./views/Home.vue')
     },
     {
+      path: "/query",
+      name: "edit_query",
+      component: () => import('./views/EditQuery.vue')
+    },
+    {
       path: '/about',
       name: 'about',
       component: () => import('./views/About.vue')

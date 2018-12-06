@@ -1,7 +1,11 @@
 <template>
   <v-app>
     <v-toolbar dark color="primary" app>
-      <v-toolbar-title>Home</v-toolbar-title>
+      <v-toolbar-title>仕事を探す</v-toolbar-title>
+      <v-spacer />
+      <v-btn to="/query" icon>
+        <v-icon>search</v-icon>
+      </v-btn>
     </v-toolbar>
     <v-content app>
       <v-container>
